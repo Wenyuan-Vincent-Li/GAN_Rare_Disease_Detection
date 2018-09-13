@@ -12,7 +12,7 @@ namely logistic regression (LR), neural network (NN(D)<sup>1</sup>), and random 
   While RF gives the poorest result, only 10.51\% PR-AUC is achieved. The PR curves 
   are shown in the following figure.
 
-<center><img src="/Plots/Figure1.png" width="600">
+<img src="/Plots/Figure1.png" width="600">
 
 <sup>1</sup> _NN(D) denotes that the neural network has the same architecture as in 
 our discriminator D._

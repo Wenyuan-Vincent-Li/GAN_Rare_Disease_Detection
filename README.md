@@ -13,6 +13,7 @@ namely logistic regression (LR), neural network (NN(D)<sup>1</sup>), and random 
   are shown in the following figure.
 
 ![Model Comparison](/Plots/Figure1.png =250x)
+<img src="/Plots/Figure1.png" width="200">
 
 \footnote{NN(D) denotes that the neural network has the same architecture as in 
 our discriminator D.} 

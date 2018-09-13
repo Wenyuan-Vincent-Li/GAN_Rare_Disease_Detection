@@ -24,7 +24,7 @@ conditional entropy term introduced by [3].
 
 |       Setting      | PR AUC Score |        Setting        | PR AUC Score |
 |:------------------:|:------------:|:---------------------:|:------------:|
-| Discriminator (NN) |    28.95%    | SSL GAN FM + PT       |    34.18%    |
+| Discriminator (NN) |    28.95%    | SSL GAN FM + PT       |    __34.18%__    |
 | Original GAN       |    29.08%    | SSL GAN FM + Ent      |    30.20%    |
 | SSL GAN FM         |    32.06%    | SSL GAN FM + PT + Ent |    30.33%    |
 

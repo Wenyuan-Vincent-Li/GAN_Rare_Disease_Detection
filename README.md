@@ -39,7 +39,7 @@ our discriminator D._
 ## API Serving
 
 The Serving folder contains a flask implementation, which render a web APP that user can interact
-with.
+with. Unlike other folders, this folder contains every element it needs, and can run individually.
 
 * At the home page, user can specify their own csv file location and click on Submit button to
 run our model.
@@ -54,3 +54,9 @@ repeat the process.
 <img src="/Plots/Figure1.png" width="600">
 
 #### Useful Links:
+
+
+#### Note
+According to the company policy, data used for training, trained model weights, and deployed
+model are not uploaded to this Git repo. Users can modify the code according to their own
+needs.

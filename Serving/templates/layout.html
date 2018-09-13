@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    {% block link%}{% endblock %}
+</head>
+
+<body class="w3-light-grey">
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+    <div class="w3-row-padding">
+        <header>
+            <div class="w3-container w3-dark-grey w3-card-4">
+                <h1 style="text-align: center;">Rare Disease Detection</h1>
+                <h3 style="text-align: center;">Powered by Generative Adversarial Networks (GANs)</h3>
+                <p style="text-align: center;">By: Wenyuan Li, Fan Zhang, and Yunlong Wang</p>
+            </div>
+            <br>
+            <form method="get" action="{{ url_for('index')}}">
+              <button class="w3-button w3-round w3-xlarge fa fa-home" type="submit" style="float: right;">
+                Home
+              </button>
+            </form>
+            <br>
+            <br>
+        </header>
+      {% block content %}{% endblock %}
+    </div>
+    <footer class="w3-container w3-light-grey w3-center w3-margin-top w3-card-4">
+        <p>Copyright 2018, IQVIA</p>
+    </footer>
+  </div>
+</body>
+</html>

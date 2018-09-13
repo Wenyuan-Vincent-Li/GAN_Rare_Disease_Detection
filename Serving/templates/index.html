@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block link %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+{% endblock link %}
+
+{% block title %}
+  Home: Rare Disease Detection
+{% endblock title %}
+
+{% block content %}
+  <div class="w3-row w3-border">
+    <div class="w3-container w3-quarter">
+      <img src="/static/icon.png" style="width:100%;" alt="pic">
+    </div>
+    <div class="w3-container w3-threequarter">
+      <form class="w3-text-dark-grey" action="{{ url_for('predict')}}" method="POST">
+      <br>
+      <label class="w3-xlarge"><b>Specify your csv file location</b></label>
+      <br>
+      <large class="w3-large">Try our csv sample file at 
+        <span style="color: #0000a0"> <i>Data/Data_File/API_SERVER_SAMPLE.csv</i>
+        </span>.
+      </large>
+      <br>
+      <div class="w3-row w3-section w3-text-grey">
+        <div class="w3-col" style="width:50px"><i class="w3-xxlarge glyphicon glyphicon-file"></i></div>
+          <div class="w3-rest">
+            <input class="w3-input w3-border w3-round" type="text" name="file_path" placeholder="File Location" style="width:50%"/>
+          </div>
+        </div>
+        <input class="w3-btn w3-large w3-dark-grey w3-round w3-medium" type="submit" value = "Submit" />
+        <br><br>
+      </form>
+    </div>
+  </div>
+{% endblock content %}

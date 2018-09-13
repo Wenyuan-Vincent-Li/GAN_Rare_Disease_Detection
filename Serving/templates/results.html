@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Predict
+{% endblock title %}
+
+{% block content %}
+  <form class="w3-container w3-card-4 w3-text-dark-grey" action="{{ url_for('download')}}" method="POST">
+    <h2 class="w3-large">
+        <b>Predicted Results</b>
+        <button class="w3-button w3-round w3-dark-grey w3-medium fa fa-download" type="submit" style="float: right;">
+        Download
+        </button>
+    </h2>
+    <div>
+        <table class="w3-responsive">
+            {{ data|safe}}
+        </table>
+    </div>
+    <br>
+  </form>
+{% endblock content %}

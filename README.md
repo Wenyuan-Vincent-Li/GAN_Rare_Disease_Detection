@@ -55,6 +55,7 @@ repeat the process.
 
 #### Useful Links:
 * [Freeze Tensorflow models and serve on web](https://cv-tricks.com/how-to/freeze-tensorflow-models/)
+* [TensorFlow: How to freeze a model and serve it with a python API](https://blog.metaflow.fr/tensorflow-how-to-freeze-a-model-and-serve-it-with-a-python-api-d4f3596b3adc)
 
 #### Note
 According to the company policy, data used for training, trained model weights, and deployed

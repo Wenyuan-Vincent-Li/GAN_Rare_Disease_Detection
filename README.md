@@ -45,14 +45,14 @@ with. Unlike other folders, this folder contains every element it needs, and can
 * At the home page, user can specify their own csv file location and click on Submit button to
 run our model.
 
-<img src="/Plots/API_1.png" width="1000">
+<img src="/Plots/API_1.PNG" width="1000">
 
 * At the predict page, user will get a snippet of the csv file including two additional prediction
 results (RISK_LEVEL & DISEASE_PROBS). User can download the original csv file with the prediction
 padded by clicking the Download button. Click on Home button and specify another csv file to 
 repeat the process.
 
-<img src="/Plots/API_2.png" width="1000">
+<img src="/Plots/API_2.PNG" width="1000">
 
 #### Useful Links:
 * [Freeze Tensorflow models and serve on web](https://cv-tricks.com/how-to/freeze-tensorflow-models/)

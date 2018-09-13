@@ -11,6 +11,7 @@ namely logistic regression (LR), neural network (NN(D)<sup>1</sup>), and random 
   score. LR and NN(D) achieve relatively similar results, around 29\% in PR-AUC. 
   While RF gives the poorest result, only 10.51\% PR-AUC is achieved. The PR curves 
   are shown in the following figure.
+
 ![Model Comparison](/Plots/Figure1.pdf)
 
 \footnote{NN(D) denotes that the neural network has the same architecture as in 

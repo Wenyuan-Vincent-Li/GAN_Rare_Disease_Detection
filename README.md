@@ -40,7 +40,7 @@ our discriminator D._
 ## API Serving
 
 The Serving folder contains a flask implementation, which render a web APP that user can interact
-with. Unlike other folders, this folder contains every element it needs, and can run individually.
+with. Unlike other folders, this folder contains every element it needs, thus can run individually.
 
 * At the home page, user can specify their own csv file location and click on Submit button to
 run our model.

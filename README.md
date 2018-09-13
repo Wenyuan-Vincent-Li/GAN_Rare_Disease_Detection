@@ -14,8 +14,8 @@ namely logistic regression (LR), neural network (NN(D)<sup>1</sup>), and random 
 
 <img src="/Plots/Figure1.png" width="600">
 
-\footnote{NN(D) denotes that the neural network has the same architecture as in 
-our discriminator D.} 
+<sup>1</sup> _NN(D) denotes that the neural network has the same architecture as in 
+our discriminator D._
 
 
 #### Useful Paper：

@@ -1,5 +1,6 @@
 # GAN Rare Disease Detection
-This is a project I have done at [IQVIA](https://www.iqvia.com/), 2018 Summer. The code design follows the principle
+This is a project I have done at [IQVIA](https://www.iqvia.com/) as a machine learning
+research intern, 2018 Summer. The code design follows the principle
 stated [here](https://wenyuan-vincent-li.github.io/posts/2018/09/blog-post-1/).
 
 ## Model Construction

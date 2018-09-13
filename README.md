@@ -1,6 +1,6 @@
 # GAN Rare Disease Detection
 This is a project I have done at [IQVIA](https://www.iqvia.com/), 2018 Summer. The code design follows the principle
-stated [here](https://github.com/Wenyuan-Vincent-Li/Tensorflow_template).
+stated [here](https://wenyuan-vincent-li.github.io/posts/2018/09/blog-post-1/).
 
 ## Model Construction
 We construct a Generative Adversarial Network (GAN) for semi-supervised learning, which
@@ -54,7 +54,7 @@ repeat the process.
 <img src="/Plots/Figure1.png" width="600">
 
 #### Useful Links:
-
+* [Freeze Tensorflow models and serve on web](https://cv-tricks.com/how-to/freeze-tensorflow-models/)
 
 #### Note
 According to the company policy, data used for training, trained model weights, and deployed
